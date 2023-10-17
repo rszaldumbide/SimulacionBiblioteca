@@ -1,0 +1,697 @@
+CRITICAL - 2022-12-18 00:42:44 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ControladorLibros.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 00:42:49 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ControladorLibros.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 00:50:37 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(216): CodeIgniter\Model->builder()
+ 3 SYSTEMPATH\BaseModel.php(585): CodeIgniter\Model->doFindAll(0, 0)
+ 4 APPPATH\Controllers\ControladorLibros.php(16): CodeIgniter\BaseModel->findAll()
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 00:56:09 --> Undefined variable $cabecera
+in APPPATH\Views\libros\ListarLibros.php on line 2.
+ 1 APPPATH\Views\libros\ListarLibros.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\ListarLibros.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(22): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 00:56:41 --> Array to string conversion
+in APPPATH\Views\libros\ListarLibros.php on line 2.
+ 1 APPPATH\Views\libros\ListarLibros.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\libros\\ListarLibros.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(22): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 00:56:43 --> Array to string conversion
+in APPPATH\Views\libros\ListarLibros.php on line 2.
+ 1 APPPATH\Views\libros\ListarLibros.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\libros\\ListarLibros.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(22): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:18:16 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 30.
+ 1 APPPATH\Controllers\ControladorLibros.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:18:43 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 30.
+ 1 APPPATH\Controllers\ControladorLibros.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:20:52 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 30.
+ 1 APPPATH\Controllers\ControladorLibros.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:21:40 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 30.
+ 1 APPPATH\Controllers\ControladorLibros.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:21:44 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 30.
+ 1 APPPATH\Controllers\ControladorLibros.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:21:49 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 30.
+ 1 APPPATH\Controllers\ControladorLibros.php(30): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 30)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:22:24 --> Undefined variable $cabecera
+in APPPATH\Views\libros\ListarLibros.php on line 2.
+ 1 APPPATH\Views\libros\ListarLibros.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\ListarLibros.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(38): view('/libros/ListarLibros')
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:25:27 --> Undefined variable $libros
+in APPPATH\Views\libros\ListarLibros.php on line 20.
+ 1 APPPATH\Views\libros\ListarLibros.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'APPPATH\\Views\\libros\\ListarLibros.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(40): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:35:54 --> Undefined variable $mensaje
+in APPPATH\Views\libros\CrearLibros.php on line 33.
+ 1 APPPATH\Views\libros\CrearLibros.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\CrearLibros.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\CrearLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/CrearLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(28): view('/libros/CrearLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->CrearLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:36:08 --> Undefined array key "mensaje"
+in APPPATH\Controllers\ControladorLibros.php on line 15.
+ 1 APPPATH\Controllers\ControladorLibros.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mensaje"', 'APPPATH\\Controllers\\ControladorLibros.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:37:05 --> Undefined variable $mensaje
+in APPPATH\Views\libros\CrearLibros.php on line 33.
+ 1 APPPATH\Views\libros\CrearLibros.php(33): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\CrearLibros.php', 33)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\CrearLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/CrearLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(26): view('/libros/CrearLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->CrearLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 01:57:58 --> Undefined array key "mensaje"
+in APPPATH\Controllers\ControladorLibros.php on line 15.
+ 1 APPPATH\Controllers\ControladorLibros.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mensaje"', 'APPPATH\\Controllers\\ControladorLibros.php', 15)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:00:15 --> Undefined array key "mensaje"
+in APPPATH\Controllers\ControladorLibros.php on line 17.
+ 1 APPPATH\Controllers\ControladorLibros.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "mensaje"', 'APPPATH\\Controllers\\ControladorLibros.php', 17)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:02:07 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 42.
+ 1 APPPATH\Views\libros\ListarLibros.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:02:46 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 42.
+ 1 APPPATH\Views\libros\ListarLibros.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:03:25 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 42.
+ 1 APPPATH\Views\libros\ListarLibros.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:03:39 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 42.
+ 1 APPPATH\Views\libros\ListarLibros.php(42): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 42)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:03:42 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:03:43 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:03:43 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:04:00 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:04:01 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:04:17 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [...], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...], [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:05:26 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:05:29 --> Undefined variable $mensaje
+in APPPATH\Views\libros\ListarLibros.php on line 43.
+ 1 APPPATH\Views\libros\ListarLibros.php(43): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $mensaje', 'APPPATH\\Views\\libros\\ListarLibros.php', 43)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(24): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:09:03 --> Attempt to read property "id" on array
+in APPPATH\Views\libros\ListarLibros.php on line 27.
+ 1 APPPATH\Views\libros\ListarLibros.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\libros\\ListarLibros.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(19): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:09:22 --> Attempt to read property "id" on array
+in APPPATH\Views\libros\ListarLibros.php on line 27.
+ 1 APPPATH\Views\libros\ListarLibros.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\libros\\ListarLibros.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(19): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:10:47 --> Attempt to read property "id" on array
+in APPPATH\Views\libros\ListarLibros.php on line 27.
+ 1 APPPATH\Views\libros\ListarLibros.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\libros\\ListarLibros.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(19): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:10:54 --> Attempt to read property "id" on array
+in APPPATH\Views\libros\ListarLibros.php on line 27.
+ 1 APPPATH\Views\libros\ListarLibros.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\libros\\ListarLibros.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(19): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:11:54 --> Attempt to read property "id" on array
+in APPPATH\Views\libros\ListarLibros.php on line 27.
+ 1 APPPATH\Views\libros\ListarLibros.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Attempt to read property "id" on array', 'APPPATH\\Views\\libros\\ListarLibros.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ListarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(19): view('/libros/ListarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:20:25 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:21:46 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:21:50 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:22:01 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:23:13 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:31:44 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:32:10 --> Invalid file: /actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('/actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:32:11 --> Invalid file: /actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(75): view('/actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:33:14 --> Invalid file: /actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(74): view('/actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:33:23 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(74): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:37:39 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(77): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:37:42 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(77): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:39:34 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(77): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:40:03 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(73): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:40:10 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(73): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('8')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:40:35 --> Invalid file: actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(73): view('actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('8')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:41:01 --> Invalid file: /actualizar.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/actualizar.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/actualizar', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(73): view('/actualizar', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('8')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:44:16 --> Undefined variable $cabecera
+in APPPATH\Views\libros\ActualizarEstudiante.php on line 2.
+ 1 APPPATH\Views\libros\ActualizarEstudiante.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\ActualizarEstudiante.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarEstudiante', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(73): view('/libros/ActualizarEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:44:30 --> Undefined variable $respuesta
+in APPPATH\Views\libros\ActualizarEstudiante.php on line 3.
+ 1 APPPATH\Views\libros\ActualizarEstudiante.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $respuesta', 'APPPATH\\Views\\libros\\ActualizarEstudiante.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarEstudiante', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(73): view('/libros/ActualizarEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 02:44:39 --> Undefined variable $datos
+in APPPATH\Views\libros\ActualizarEstudiante.php on line 3.
+ 1 APPPATH\Views\libros\ActualizarEstudiante.php(3): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\libros\\ActualizarEstudiante.php', 3)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarEstudiante', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(73): view('/libros/ActualizarEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->obtenerNombre('1')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 03:10:23 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 32.
+ 1 APPPATH\Controllers\ControladorLibros.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 03:10:53 --> Undefined array key "codigo"
+in APPPATH\Controllers\ControladorLibros.php on line 32.
+ 1 APPPATH\Controllers\ControladorLibros.php(32): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Controllers\\ControladorLibros.php', 32)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ingresar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:29:26 --> Undefined array key "genero"
+in APPPATH\Controllers\ControladorEstudiantes.php on line 40.
+ 1 APPPATH\Controllers\ControladorEstudiantes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genero"', 'APPPATH\\Controllers\\ControladorEstudiantes.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->ingresarEst()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:32:04 --> Undefined array key "genero"
+in APPPATH\Controllers\ControladorEstudiantes.php on line 40.
+ 1 APPPATH\Controllers\ControladorEstudiantes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "genero"', 'APPPATH\\Controllers\\ControladorEstudiantes.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->ingresarEst()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:33:39 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:33:42 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:33:59 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:34:08 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:35:22 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:35:25 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('3')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:37:18 --> Undefined array key "codigo"
+in APPPATH\Views\libros\ActualizarLibros.php on line 7.
+ 1 APPPATH\Views\libros\ActualizarLibros.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "codigo"', 'APPPATH\\Views\\libros\\ActualizarLibros.php', 7)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\ActualizarLibros.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarLibros', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarLibros', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:38:50 --> Invalid file: /libros/ActualizarEstudiante.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/libros/ActualizarEstudiante.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarEstudiante', [], true)
+ 3 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarEstudiante', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:39:14 --> Invalid file: /libros/ActualizarEstudiante.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/libros/ActualizarEstudiante.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarEstudiante', [], true)
+ 3 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarEstudiante', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:40:34 --> Invalid file: /libros/ActualizarEstudiante.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/libros/ActualizarEstudiante.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ActualizarEstudiante', [], true)
+ 3 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/libros/ActualizarEstudiante', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('4')
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:43:11 --> Undefined variable $codigo
+in APPPATH\Views\estudiante\ActualizarEstudiante.php on line 21.
+ 1 APPPATH\Views\estudiante\ActualizarEstudiante.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $codigo', 'APPPATH\\Views\\estudiante\\ActualizarEstudiante.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiante\\ActualizarEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/ActualizarEstudiante', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/estudiante/ActualizarEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-18 04:43:56 --> Undefined variable $codigo
+in APPPATH\Views\estudiante\ActualizarEstudiante.php on line 21.
+ 1 APPPATH\Views\estudiante\ActualizarEstudiante.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $codigo', 'APPPATH\\Views\\estudiante\\ActualizarEstudiante.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\estudiante\\ActualizarEstudiante.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/estudiante/ActualizarEstudiante', [], true)
+ 5 APPPATH\Controllers\ControladorEstudiantes.php(65): view('/estudiante/ActualizarEstudiante', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorEstudiantes->obtenerNombreEst('4')
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorEstudiantes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

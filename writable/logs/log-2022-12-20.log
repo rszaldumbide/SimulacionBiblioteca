@@ -1,0 +1,647 @@
+CRITICAL - 2022-12-20 09:53:13 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 13.
+ 1 APPPATH\Views\libros\generarLibro.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:53:39 --> Undefined variable $datos3
+in APPPATH\Views\libros\generarLibro.php on line 13.
+ 1 APPPATH\Views\libros\generarLibro.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos3', 'APPPATH\\Views\\libros\\generarLibro.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:53:40 --> Undefined variable $datos3
+in APPPATH\Views\libros\generarLibro.php on line 13.
+ 1 APPPATH\Views\libros\generarLibro.php(13): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos3', 'APPPATH\\Views\\libros\\generarLibro.php', 13)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:54:10 --> Undefined variable $datos3
+in APPPATH\Views\libros\generarLibro.php on line 5.
+ 1 APPPATH\Views\libros\generarLibro.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos3', 'APPPATH\\Views\\libros\\generarLibro.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:54:23 --> Undefined variable $datos3
+in APPPATH\Views\libros\generarLibro.php on line 5.
+ 1 APPPATH\Views\libros\generarLibro.php(5): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos3', 'APPPATH\\Views\\libros\\generarLibro.php', 5)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:55:47 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Views\libros\generarLibro.php on line 5.
+ 1 APPPATH\Views\libros\generarLibro.php(5): print_r([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(33): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:55:55 --> print_r(): Argument #2 ($return) must be of type bool, array given
+in APPPATH\Views\libros\generarLibro.php on line 5.
+ 1 APPPATH\Views\libros\generarLibro.php(5): print_r([...], [...])
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(33): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:56:17 --> Undefined variable $datos
+in APPPATH\Views\libros\generarLibro.php on line 46.
+ 1 APPPATH\Views\libros\generarLibro.php(46): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\libros\\generarLibro.php', 46)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(33): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 09:58:29 --> Undefined array key "titulo"
+in APPPATH\Views\libros\generarLibro.php on line 29.
+ 1 APPPATH\Views\libros\generarLibro.php(29): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "titulo"', 'APPPATH\\Views\\libros\\generarLibro.php', 29)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(33): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:13:17 --> Undefined array key "idI"
+in APPPATH\Controllers\ControladorReportes.php on line 40.
+ 1 APPPATH\Controllers\ControladorReportes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idI"', 'APPPATH\\Controllers\\ControladorReportes.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:13:36 --> Undefined array key "idI"
+in APPPATH\Controllers\ControladorReportes.php on line 40.
+ 1 APPPATH\Controllers\ControladorReportes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idI"', 'APPPATH\\Controllers\\ControladorReportes.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:14:05 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 40.
+ 1 APPPATH\Controllers\ControladorReportes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:34:56 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:35:02 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:36:26 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 19.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:38:36 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:39:26 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 18.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:40:45 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:41:18 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 21.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:41:27 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 10:42:09 --> Cannot use object of type stdClass as array
+in APPPATH\Views\api\datos.php on line 20.
+ 1 SYSTEMPATH\View\View.php(213): include()
+ 2 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 3 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/api/datos', [], true)
+ 4 APPPATH\Controllers\ControladorDatos.php(25): view('/api/datos', [...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:18:40 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 40.
+ 1 APPPATH\Controllers\ControladorReportes.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:26:16 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:26:37 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:26:49 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:28:38 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:29:53 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:30:45 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 11:31:06 --> Undefined array key "idLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 38.
+ 1 APPPATH\Controllers\ControladorReportes.php(38): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 38)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->ingresop()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:14:29 --> Undefined variable $rol
+in APPPATH\Views\login\login.php on line 23.
+ 1 APPPATH\Views\login\login.php(23): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $rol', 'APPPATH\\Views\\login\\login.php', 23)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/login/login', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(19): view('/login/login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:14:47 --> Undefined variable $r
+in APPPATH\Views\login\login.php on line 26.
+ 1 APPPATH\Views\login\login.php(26): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $r', 'APPPATH\\Views\\login\\login.php', 26)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/login/login', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(19): view('/login/login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:28:40 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ControladorLogin.php(21): CodeIgniter\Model->__call('selectReportes', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:28:57 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ControladorLogin.php(21): CodeIgniter\Model->__call('selectReportes', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:29:55 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ControladorLogin.php(21): CodeIgniter\Model->__call('selectReportes', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:29:56 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ControladorLogin.php(21): CodeIgniter\Model->__call('selectReportes', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:30:06 --> You must set the database table to be used with your query.
+in SYSTEMPATH\Database\BaseConnection.php on line 845.
+ 1 SYSTEMPATH\Model.php(587): CodeIgniter\Database\BaseConnection->table(null)
+ 2 SYSTEMPATH\Model.php(764): CodeIgniter\Model->builder()
+ 3 APPPATH\Controllers\ControladorLogin.php(21): CodeIgniter\Model->__call('selectReportes', [])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:30:49 --> Undefined variable $cabecera
+in APPPATH\Views\login\login.php on line 2.
+ 1 APPPATH\Views\login\login.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\login\\login.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\login\\login.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/login/login', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(25): view('/login/login', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->IniciarSesion()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:49:01 --> Undefined variable $datos3
+in APPPATH\Views\libros\generarLibro.php on line 14.
+ 1 APPPATH\Views\libros\generarLibro.php(14): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos3', 'APPPATH\\Views\\libros\\generarLibro.php', 14)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:50:18 --> Undefined variable $datos4
+in APPPATH\Views\libros\generarLibro.php on line 28.
+ 1 APPPATH\Views\libros\generarLibro.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos4', 'APPPATH\\Views\\libros\\generarLibro.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:50:30 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 55.
+ 1 APPPATH\Views\libros\generarLibro.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:55:01 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 55.
+ 1 APPPATH\Views\libros\generarLibro.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:55:43 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 55.
+ 1 APPPATH\Views\libros\generarLibro.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:55:44 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 55.
+ 1 APPPATH\Views\libros\generarLibro.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:56:25 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 55.
+ 1 APPPATH\Views\libros\generarLibro.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:57:00 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 55.
+ 1 APPPATH\Views\libros\generarLibro.php(55): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 55)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:26 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:27 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:28 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:29 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:29 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:29 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:29 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:29 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:30 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:30 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:30 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 15:58:36 --> Undefined variable $datos2
+in APPPATH\Views\libros\generarLibro.php on line 21.
+ 1 APPPATH\Views\libros\generarLibro.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos2', 'APPPATH\\Views\\libros\\generarLibro.php', 21)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLogin.php(34): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:17:39 --> Array to string conversion
+in APPPATH\Controllers\ControladorLogin.php on line 40.
+ 1 APPPATH\Controllers\ControladorLogin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ControladorLogin.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:18:51 --> Array to string conversion
+in APPPATH\Controllers\ControladorLogin.php on line 40.
+ 1 APPPATH\Controllers\ControladorLogin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ControladorLogin.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:19:35 --> Array to string conversion
+in APPPATH\Controllers\ControladorLogin.php on line 40.
+ 1 APPPATH\Controllers\ControladorLogin.php(40): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Controllers\\ControladorLogin.php', 40)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:26:43 --> Method name must be a string
+in APPPATH\Controllers\ControladorLogin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:28:08 --> Array callback must have exactly two elements
+in APPPATH\Controllers\ControladorLogin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:28:36 --> Array callback must have exactly two elements
+in APPPATH\Controllers\ControladorLogin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:32:20 --> Array callback must have exactly two elements
+in APPPATH\Controllers\ControladorLogin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:34:08 --> Array callback must have exactly two elements
+in APPPATH\Controllers\ControladorLogin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 17:34:18 --> Array callback must have exactly two elements
+in APPPATH\Controllers\ControladorLogin.php on line 41.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 18:11:53 --> syntax error, unexpected token ")"
+in APPPATH\Controllers\ControladorLogin.php on line 50.
+ 1 SYSTEMPATH\Autoloader\Autoloader.php(259): CodeIgniter\Autoloader\Autoloader->includeFile('APPPATH\\Controllers\\ControladorLogin.php')
+ 2 SYSTEMPATH\Autoloader\Autoloader.php(237): CodeIgniter\Autoloader\Autoloader->loadInNamespace('App\\Controllers\\ControladorLogin')
+ 3 [internal function]: CodeIgniter\Autoloader\Autoloader->loadClass('App\\Controllers\\ControladorLogin')
+ 4 SYSTEMPATH\CodeIgniter.php(877): class_exists('\\App\\Controllers\\ControladorLogin', true)
+ 5 SYSTEMPATH\CodeIgniter.php(469): CodeIgniter\CodeIgniter->startController()
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 19:06:17 --> sessionSecre filter must have a matching alias defined.
+in SYSTEMPATH\Filters\Filters.php on line 493.
+ 1 SYSTEMPATH\Filters\Filters.php(493): CodeIgniter\Filters\Exceptions\FilterException::forNoAlias('sessionSecre')
+ 2 SYSTEMPATH\Filters\Filters.php(243): CodeIgniter\Filters\Filters->processAliasesToClass('before')
+ 3 SYSTEMPATH\Filters\Filters.php(163): CodeIgniter\Filters\Filters->initialize('inicio')
+ 4 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\Filters\Filters->run('inicio', 'before')
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-20 19:10:35 --> Cannot declare class App\Filters\sessionAdmin, because the name is already in use
+in APPPATH\Filters\sessionSecre.php on line 9.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->shutdownHandler()
+CRITICAL - 2022-12-20 22:42:44 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ControladorLogin.php on line 68.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

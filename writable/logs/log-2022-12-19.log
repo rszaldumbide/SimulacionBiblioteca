@@ -1,0 +1,1527 @@
+CRITICAL - 2022-12-19 17:45:44 --> Invalid file: /libros/generarLibro.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/libros/generarLibro.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(109): view('/libros/generarLibro', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->generarLibro()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 17:49:12 --> Undefined variable $libros
+in APPPATH\Views\libros\generarLibro.php on line 20.
+ 1 APPPATH\Views\libros\generarLibro.php(20): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $libros', 'APPPATH\\Views\\libros\\generarLibro.php', 20)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(109): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 18:15:27 --> Undefined variable $catalogoel
+in APPPATH\Views\libros\generarLibro.php on line 28.
+ 1 APPPATH\Views\libros\generarLibro.php(28): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $catalogoel', 'APPPATH\\Views\\libros\\generarLibro.php', 28)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorLibros.php(109): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 18:34:49 --> Undefined array key "nombre"
+in APPPATH\Views\libros\generarLibro.php on line 16.
+ 1 APPPATH\Views\libros\generarLibro.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "nombre"', 'APPPATH\\Views\\libros\\generarLibro.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(27): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:18:35 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:18:35 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:21:13 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:21:13 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:25:10 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:25:10 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:27:09 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:27:09 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 21.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:27:11 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:27:11 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 21.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:29:35 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:29:35 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:52:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:52:30 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:55:12 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:55:12 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:55:13 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:55:13 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 19:58:49 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 19:58:49 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:01:25 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 20:01:25 --> Undefined variable $cabecera
+in APPPATH\Views\libros\generarLibro.php on line 2.
+ 1 APPPATH\Views\libros\generarLibro.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\generarLibro.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:02:19 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 20:02:19 --> Undefined variable $cabecera
+in APPPATH\Views\libros\generarLibro.php on line 2.
+ 1 APPPATH\Views\libros\generarLibro.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\generarLibro.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:02:20 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 20:02:20 --> Undefined variable $cabecera
+in APPPATH\Views\libros\generarLibro.php on line 2.
+ 1 APPPATH\Views\libros\generarLibro.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\generarLibro.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:58:19 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(20): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 20:58:19 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 20.
+ 1 APPPATH\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:58:34 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(22): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 20:58:34 --> Undefined variable $cabecera
+in APPPATH\Views\libros\generarLibro.php on line 2.
+ 1 APPPATH\Views\libros\generarLibro.php(2): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $cabecera', 'APPPATH\\Views\\libros\\generarLibro.php', 2)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(28): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 20:59:44 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 20:59:44 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\libros\generarLibro.php on line 15.
+ 1 APPPATH\Views\libros\generarLibro.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\libros\\generarLibro.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:00:05 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:00:05 --> Undefined variable $datos
+in APPPATH\Views\libros\generarLibro.php on line 15.
+ 1 APPPATH\Views\libros\generarLibro.php(15): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\libros\\generarLibro.php', 15)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:00:22 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:00:22 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\libros\generarLibro.php on line 31.
+ 1 APPPATH\Views\libros\generarLibro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\libros\\generarLibro.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:00:24 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:00:24 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\libros\generarLibro.php on line 31.
+ 1 APPPATH\Views\libros\generarLibro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\libros\\generarLibro.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:00:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:00:29 --> Undefined variable $datos
+in APPPATH\Views\libros\generarLibro.php on line 31.
+ 1 APPPATH\Views\libros\generarLibro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $datos', 'APPPATH\\Views\\libros\\generarLibro.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:00:37 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:00:37 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\libros\generarLibro.php on line 31.
+ 1 APPPATH\Views\libros\generarLibro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\libros\\generarLibro.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:01:08 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:01:08 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\libros\generarLibro.php on line 31.
+ 1 APPPATH\Views\libros\generarLibro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\libros\\generarLibro.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:01:20 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:01:20 --> foreach() argument must be of type array|object, bool given
+in APPPATH\Views\libros\generarLibro.php on line 31.
+ 1 APPPATH\Views\libros\generarLibro.php(31): CodeIgniter\Debug\Exceptions->errorHandler(2, 'foreach() argument must be of type array|object, bool given', 'APPPATH\\Views\\libros\\generarLibro.php', 31)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:09:48 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:09:48 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:12:07 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:12:07 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:12:08 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:12:08 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:17:52 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:17:53 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:01 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:01 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:02 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:02 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:20 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:20 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:21 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:21 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:22 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:22 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:22 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:22 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:23 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:23 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:23 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:23 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:27 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:27 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:35 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:18:35 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:19:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:19:29 --> Call to a member function getResult() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:19:34 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:19:34 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:19:40 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:19:40 --> Call to a member function getResultObject() on bool
+in APPPATH\Models\ModeloReportes.php on line 19.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:23:27 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:27 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:28 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:28 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:29 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:30 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:31 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:31 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:31 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:32 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 21:23:32 --> mysqli_sql_exception: Not unique table/alias: 'catalogoel' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(19): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:23:58 --> Array to string conversion
+in APPPATH\Views\libros\generarLibro.php on line 17.
+ 1 APPPATH\Views\libros\generarLibro.php(17): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Array to string conversion', 'APPPATH\\Views\\libros\\generarLibro.php', 17)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 21:58:26 --> mysqli_sql_exception: Table 'biblioteca.tbl_estudiante' doesn't exist in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `est`.`e...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `est`.`e...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `est`.`e...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `est`.`e...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 21:58:26 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 30.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:03:23 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:03:23 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 30.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:04:02 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:04:02 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 30.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:05:11 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 22:05:11 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 22:05:14 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 22:05:14 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 22:05:14 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 22:05:14 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+ERROR - 2022-12-19 22:06:10 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:06:10 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 30.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:08:35 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(29): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:08:35 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 30.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:09:10 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:09:10 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 27.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:19:39 --> mysqli_sql_exception: Unknown column 'estudiantes.nombre' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `estudia...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `estudia...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `estudia...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `estudia...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:19:39 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 27.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:27:43 --> Undefined array key "idEstudiante"
+in APPPATH\Views\libros\generarLibro.php on line 39.
+ 1 APPPATH\Views\libros\generarLibro.php(39): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Views\\libros\\generarLibro.php', 39)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:34:15 --> Undefined array key "idEstudiante"
+in APPPATH\Views\libros\generarLibro.php on line 16.
+ 1 APPPATH\Views\libros\generarLibro.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Views\\libros\\generarLibro.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:36:03 --> Undefined array key "idEstudiante"
+in APPPATH\Views\libros\generarLibro.php on line 16.
+ 1 APPPATH\Views\libros\generarLibro.php(16): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Views\\libros\\generarLibro.php', 16)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-19 22:36:22 --> Undefined array key "idLibro"
+in APPPATH\Views\libros\generarLibro.php on line 27.
+ 1 APPPATH\Views\libros\generarLibro.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idLibro"', 'APPPATH\\Views\\libros\\generarLibro.php', 27)
+ 2 SYSTEMPATH\View\View.php(213): include('APPPATH\\Views\\libros\\generarLibro.php')
+ 3 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/generarLibro', [], true)
+ 5 APPPATH\Controllers\ControladorReportes.php(26): view('/libros/generarLibro', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 7 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 8 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+ERROR - 2022-12-19 22:40:13 --> mysqli_sql_exception: Unknown column 'li' in 'field list' in C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php:292
+Stack trace:
+#0 C:\xampp\htdocs\biblioteca\system\Database\MySQLi\Connection.php(292): mysqli->query('SELECT `est`.`n...', 0)
+#1 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(666): CodeIgniter\Database\MySQLi\Connection->execute('SELECT `est`.`n...')
+#2 C:\xampp\htdocs\biblioteca\system\Database\BaseConnection.php(593): CodeIgniter\Database\BaseConnection->simpleQuery('SELECT `est`.`n...')
+#3 C:\xampp\htdocs\biblioteca\system\Database\BaseBuilder.php(1585): CodeIgniter\Database\BaseConnection->query('SELECT `est`.`n...', Array, false)
+#4 C:\xampp\htdocs\biblioteca\app\Models\ModeloReportes.php(26): CodeIgniter\Database\BaseBuilder->get()
+#5 C:\xampp\htdocs\biblioteca\app\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+#6 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+#7 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+#8 C:\xampp\htdocs\biblioteca\system\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(NULL, Object(Config\Cache), false)
+#9 C:\xampp\htdocs\biblioteca\index.php(67): CodeIgniter\CodeIgniter->run()
+#10 {main}
+CRITICAL - 2022-12-19 22:40:13 --> Call to a member function getResultArray() on bool
+in APPPATH\Models\ModeloReportes.php on line 27.
+ 1 APPPATH\Controllers\ControladorReportes.php(19): App\Models\ModeloReportes->selectReportes()
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->generarLibro()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

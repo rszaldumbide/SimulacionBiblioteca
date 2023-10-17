@@ -1,0 +1,180 @@
+CRITICAL - 2022-12-16 06:42:03 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:42:45 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:42:45 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:42:46 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:42:46 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:07 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:12 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:12 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:13 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:13 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:13 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:13 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:13 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:43:13 --> Invalid file: listarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('listarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('listarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('listarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->listarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:44:36 --> Invalid file: ListarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ListarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ListarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('ListarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->ListarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 06:45:35 --> Invalid file: ListarLibros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('ListarLibros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('ListarLibros', [], true)
+ 3 APPPATH\Controllers\Home.php(13): view('ListarLibros')
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\Home->ListarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Home))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 07:18:26 --> Invalid file: /libros/Crear Libros.php
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 33.
+ 1 SYSTEMPATH\View\View.php(201): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('/libros/Crear Libros.php')
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/Crear Libros', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(22): view('/libros/Crear Libros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->CrearLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 07:44:12 --> syntax error, unexpected end of file
+in APPPATH\Views\libros\ListarLibros.php on line 31.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(18): view('/libros/ListarLibros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 07:46:42 --> syntax error, unexpected end of file
+in APPPATH\Views\libros\ListarLibros.php on line 29.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(18): view('/libros/ListarLibros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-16 07:46:43 --> syntax error, unexpected end of file
+in APPPATH\Views\libros\ListarLibros.php on line 29.
+ 1 SYSTEMPATH\View\View.php(216): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 2 SYSTEMPATH\Common.php(1134): CodeIgniter\View\View->render('/libros/ListarLibros', [], true)
+ 3 APPPATH\Controllers\ControladorLibros.php(18): view('/libros/ListarLibros', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLibros->ListarLibros()
+ 5 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLibros))
+ 6 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

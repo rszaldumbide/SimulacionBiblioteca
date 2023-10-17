@@ -1,0 +1,92 @@
+CRITICAL - 2022-12-21 06:22:31 --> file_get_contents(http://localhost/API_LOGIN/servicios/apiUsuarios.php): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+
+in APPPATH\Controllers\ControladorDatos.php on line 23.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(http://localhost/API_LOGIN/servicios/apiUsuarios.php): Failed to open stream: HTTP request failed! HTTP/1.1 404 Not Found
+', 'APPPATH\\Controllers\\ControladorDatos.php', 23)
+ 2 APPPATH\Controllers\ControladorDatos.php(23): file_get_contents('http://localhost/API_LOGIN/servicios/apiUsuarios.php')
+ 3 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorDatos->mostrarDatos()
+ 4 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorDatos))
+ 5 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 06:38:28 --> Undefined array key "usuarios"
+in APPPATH\Controllers\ControladorLogin.php on line 62.
+ 1 APPPATH\Controllers\ControladorLogin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuarios"', 'APPPATH\\Controllers\\ControladorLogin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 06:39:32 --> Undefined array key "usuario"
+in APPPATH\Controllers\ControladorLogin.php on line 62.
+ 1 APPPATH\Controllers\ControladorLogin.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "usuario"', 'APPPATH\\Controllers\\ControladorLogin.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 06:43:19 --> Cannot access offset of type string on string
+in APPPATH\Controllers\ControladorLogin.php on line 93.
+ 1 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorLogin->login()
+ 2 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorLogin))
+ 3 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:30:05 --> Undefined array key "IdLibro"
+in APPPATH\Controllers\ControladorReportes.php on line 54.
+ 1 APPPATH\Controllers\ControladorReportes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "IdLibro"', 'APPPATH\\Controllers\\ControladorReportes.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:34:04 --> Undefined array key "idEstudiante"
+in APPPATH\Controllers\ControladorReportes.php on line 54.
+ 1 APPPATH\Controllers\ControladorReportes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Controllers\\ControladorReportes.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:34:43 --> Undefined array key "idEstudiante"
+in APPPATH\Controllers\ControladorReportes.php on line 54.
+ 1 APPPATH\Controllers\ControladorReportes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Controllers\\ControladorReportes.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:35:42 --> Undefined array key "idEstudiante"
+in APPPATH\Controllers\ControladorReportes.php on line 54.
+ 1 APPPATH\Controllers\ControladorReportes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Controllers\\ControladorReportes.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:35:48 --> Undefined array key "idEstudiante"
+in APPPATH\Controllers\ControladorReportes.php on line 54.
+ 1 APPPATH\Controllers\ControladorReportes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Controllers\\ControladorReportes.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:38:24 --> Undefined array key "idEstudiante"
+in APPPATH\Controllers\ControladorReportes.php on line 54.
+ 1 APPPATH\Controllers\ControladorReportes.php(54): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "idEstudiante"', 'APPPATH\\Controllers\\ControladorReportes.php', 54)
+ 2 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 3 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 4 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:39:09 --> Allowed fields must be specified for model: App\Models\ModeloReportes
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModeloReportes')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\ControladorReportes.php(59): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()
+CRITICAL - 2022-12-21 07:40:13 --> Allowed fields must be specified for model: App\Models\ModeloReportes
+in SYSTEMPATH\BaseModel.php on line 1160.
+ 1 SYSTEMPATH\BaseModel.php(1160): CodeIgniter\Database\Exceptions\DataException::forInvalidAllowedFields('App\\Models\\ModeloReportes')
+ 2 SYSTEMPATH\BaseModel.php(724): CodeIgniter\BaseModel->doProtectFields([...])
+ 3 SYSTEMPATH\Model.php(667): CodeIgniter\BaseModel->insert([...], true)
+ 4 APPPATH\Controllers\ControladorReportes.php(59): CodeIgniter\Model->insert([...])
+ 5 SYSTEMPATH\CodeIgniter.php(927): App\Controllers\ControladorReportes->solicitar()
+ 6 SYSTEMPATH\CodeIgniter.php(482): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\ControladorReportes))
+ 7 SYSTEMPATH\CodeIgniter.php(351): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 FCPATH\index.php(67): CodeIgniter\CodeIgniter->run()

@@ -1,0 +1,157 @@
+html {
+    min-height: 100%;
+    position: relative;
+  }
+
+body{
+    background-color: #ffffff;
+    background-image: url("data:image/svg+xml,%3Csvg width='80' height='80' viewBox='0 0 80 80' xmlns='http://www.w3.org/2000/svg'%3E%3Cg fill='none' fill-rule='evenodd'%3E%3Cg fill='%23000000' fill-opacity='0.14'%3E%3Cpath d='M50 50c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10s-10-4.477-10-10 4.477-10 10-10zM10 10c0-5.523 4.477-10 10-10s10 4.477 10 10-4.477 10-10 10c0 5.523-4.477 10-10 10S0 25.523 0 20s4.477-10 10-10zm10 8c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8zm40 40c4.418 0 8-3.582 8-8s-3.582-8-8-8-8 3.582-8 8 3.582 8 8 8z' /%3E%3C/g%3E%3C/g%3E%3C/svg%3E");
+}
+
+.contenedorP{
+    background-color: rgb(52, 52, 175);
+    display: flex;
+    justify-content: space-between;
+    height: 50px;   
+}
+.navlist{
+    text-align: center;
+}
+
+.navlist li{
+    list-style: none;
+    display: inline-block;
+    padding-right: 30px;
+    padding-top: 8px;
+    height: 50px;
+}
+.navlist li:hover{
+    color: #4b4b4b;
+    background-color: #ffffff;
+    
+}
+
+.navlist li a{
+    text-decoration: none;
+    color: #ffffff;
+    padding-left: 13px;
+    
+}
+.navlist li a:hover{
+    text-decoration: none;
+    color: #4b4b4b;
+}
+
+footer{
+    background-color: black;
+    color: #ffffff;
+    padding: 3%;
+    height: 45px;
+    position: absolute;
+    bottom: 0;
+    width: 100%;
+}
+.piep{
+    text-align: center;
+    font-weight: 700;
+
+}
+
+.forms-box {
+    width: auto;
+    padding: 40px;
+    background: rgb(58, 57, 54);
+    border-radius: 10px;
+  }
+    
+  .forms-box .user-box {
+    position: relative;
+  }
+  
+  .forms-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgb(255, 255, 255);
+    outline: none;
+    background: transparent;
+  }
+  .forms-box .user-box label {
+    position: absolute;
+    top:0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(255, 255, 255);
+    pointer-events: none;
+    transition: .5s;
+  }
+  
+  .forms-box .user-box input:focus ~ label,
+  .forms-box .user-box input:valid ~ label {
+    top: -20px;
+    left: 0;
+    color: rgb(255,204,0);
+    font-size: 12px;
+  }
+  
+
+  .login-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    max-width: 350px;
+    min-width: 300px;
+    padding: 40px;
+    transform: translate(-50%, -50%);
+    background: rgb(255, 255, 255);
+    box-sizing: border-box;
+    box-shadow: 0 15px 25px rgb(48, 48, 48); /*para poner la sombra*/
+    border-radius: 10px;
+}
+
+.login-box h3 {
+    margin: 0 0 30px;
+    padding: 0;
+    color: rgba(0, 172, 193,1);
+    text-align: center;
+}
+
+.login-box .user-box {
+    position: relative;
+}
+
+
+.login-box .user-box input {
+    width: 100%;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    margin-bottom: 30px;
+    border: none;
+    border-bottom: 1px solid rgba(0, 172, 193,1);
+    outline: none;
+    background: transparent;
+}
+
+.login-box .user-box label {
+    position: absolute;
+    top: 0;
+    left: 0;
+    padding: 10px 0;
+    font-size: 16px;
+    color: rgb(0, 0, 0);
+    pointer-events: none;
+    transition: .5s;
+}
+
+.login-box .user-box input:focus~label,
+.login-box .user-box input:valid~label {
+    top: -20px;
+    left: 0;
+    color: rgba(0, 172, 193,1);
+    font-size: 12px;
+}
